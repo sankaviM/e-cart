@@ -1,0 +1,494 @@
+LOGIN PAGE:
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<style>
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.boxh1{
+color:white;
+text-transform:uppercase;
+font-weight:500;
+}
+.boxinput[type = "text"],.boxinput[type = "password"]{
+border:0;
+background:none;
+display:block;
+margin:20pxauto;
+text-align:center;
+border:2pxsolid#5AF8FF; 
+padding:14px10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+.boxinput[type = "text"]:focus,.boxinput[type = "password"]:focus{
+border-color:#FFD700;
+}
+.boxinput[type ="submit"]{
+border:0;
+background:none;
+display:block;
+margin:20pxauto;
+text-align:center;
+border:2pxsolid#FFD700; 
+padding:14px40px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+.boxinput[type ="submit"]{
+}
+froma{
+text-decoration:none;
+font-size:18px;
+color:#5AF8FF;
+}
+</style>
+</head>
+<body>
+<fromclass="box"action="index.html"method="post">
+<h1>Login</h1>
+<inputtype="text"name=""placeholder="Usernameore-mailID
+">
+<inputtype="password"name=""placeholder="Password">
+<inputtype="submit"name=""value="Login">
+<ahref="#">Forget Password?</a>
+</from>
+</body>
+</html>
+REGISTER PAGE:
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<style>
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.boxh1{
+color:white;
+text-transform:uppercase;
+font-weight:500;
+}
+.boxinput[type = "text"],.boxinput[type = "password"]{
+border:0;
+background:none;
+display:block;
+margin:20pxauto;
+text-align:center;
+border:2pxsolid#5AF8FF; 
+padding:14px10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+.boxinput[type = "text"]:focus,.boxinput[type = "password"]:focus{
+width:280px;
+border-color:#FFD700;
+.boxinput[type ="submit"]{
+border:0;
+background:none;
+display:block;
+margin:20pxauto;
+text-align:center;
+border:2pxsolid#FFD700; 
+padding:14px40px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+.boxinput[type ="submit"]{
+}
+</style>
+</head>
+<body>
+<fromclass="box"action="index.html"method="post">
+<h1>Register</h1>
+<inputtype="text"name=""placeholder="First Name">
+<inputtype="text"name=""placeholder="Last Name">
+<inputtype="text"name=""placeholder="E-mail ID">
+<inputtype="password"name=""placeholder="Create Password">
+<inputtype="password"name=""placeholder="Confirm Password">
+""value="Create">
+</body>
+</html>
+
+<html>
+<title>vehicle availablity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-color:powderblue;">
+<center><h2>VEHICLE FOR YOU</h2></center>
+<center><p>The vechile that are avalibles for you are</p></center>
+<center><form action="/action_page.php">
+ <input type="checkbox" id="vehicle1" name="vehicle1" value="Tractor">
+ <label for="vehicle1">Tractor</label><br>
+ <input type="checkbox" id="vehicle2" name="vehicle2" value="ATV/UTV">
+ <label for="vehicle2"> ATV/UTV</label><br>
+ <input type="checkbox" id="vehicle3" name="vehicle3" value="Farm Truck">
+ <label for="vehicle3"> Farm Truck</label><br><br>
+ <input type="checkbox" id="vehicle4" name="vehicle4" value="Backhoe">
+ <label for="vehicle4"> Backhoe</label><br><br>
+ <input type="checkbox" id="vehicle5" name="vehicle5" value="Front-End Loader">
+ <label for="vehicle5"> Front-End Loader</label><br><br>
+ <input type="checkbox" id="vehicle6" name="vehicle6" value="Cultivator">
+ <label for="vehicle6"> Cultivator</label><br><br>
+ <input type="checkbox" id="vehicle7" name="vehicle7" value="Plows">
+ <label for="vehicle7"> Plows</label><br><br>
+ <input type="checkbox" id="vehicle8" name="vehicle8" value="Harvester">
+ <label for="vehicle8"> Harvester</label><br><br>
+ <input type="submit" value="Submit"></center>
+</form>
+</body>
+</html>
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<linkrel="stylesheet"href="style.css">
+</head>
+<body>
+<fromclass="box"action="index.html"method="post">
+<h1>Forget password</h1>
+<inputtype="text"name=""placeholder="Usernameore-mailID
+">
+<inputtype="password"name=""placeholder="Reset Password">
+<inputtype="password"name=""placeholder="Confirm Password">
+<inputtype="submit"name=""value="Update">
+</from>
+</body>
+</html>
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<style>
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.boxh1{
+color:white;
+text-transform:uppercase;
+font-weight:500;}
+.boxinput[type = "text"],.boxinput[type = "password"]{
+
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<linkrel="stylesheet"href="style.css">
+</head>
+<body>
+<fromclass="box"action="index.html"method="post">
+<h1>Forget password</h1>
+<inputtype="text"name=""placeholder="Usernameore-mailID
+">
+<inputtype="password"name=""placeholder="Reset Password">
+<inputtype="password"name=""placeholder="Confirm Password">
+<inputtype="submit"name=""value="Update">
+</from>
+</body>
+</html>
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<style>
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.boxh1{
+color:white;
+text-transform:uppercase;
+font-weight:500;}
+.boxinput[type = "text"],.boxinput[type = "password"]{
+
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<linkrel="stylesheet"href="style.css">
+</head>
+<body>
+<fromclass="box"action="index.html"method="post">
+<h1>Forget password</h1>
+<inputtype="text"name=""placeholder="Usernameore-mailID
+">
+<inputtype="password"name=""placeholder="Reset Password">
+<inputtype="password"name=""placeholder="Confirm Password">
+<inputtype="submit"name=""value="Update">
+</from>
+</body>
+</html>
+<!DOCTYPE html>
+<htmllang="en"dir="ltr">
+<head>
+<metacharset="utf-g">
+<style>
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.boxh1{
+color:white;
+text-transform:uppercase;
+font-weight:500;}
+.boxinput[type = "text"],.boxinput[type = "password"]{
+</from>
+</body>
+</html>
+
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+<metacharset="utf-g">
+<title>Payment Checkout Form</title>
+<linkrel="stylesheet"href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+<style>
+@importurl('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Ubuntu:wght@
+300&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Ubuntu', sans-serif;
+}
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("https://wallpapercave.com/wp/wp5670175.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+.payment{
+background:#978c8c79;
+max-width:360px;
+margin:80pxauto;
+height:auto;
+padding:35px;
+padding-top:70px;
+border-radius:5px;
+position:relative;
+}
+.paymenth1{
+text-align:center;
+letter-spacing:2px;
+margin-bottom:40px;
+color:black;
+}
+.form.label{
+display:block;
+color:black;
+margin-bottom:6px;
+.form.input{
+padding:13px013px25px;
+width:100%;
+text-align:center;
+border:2pxsolid#dddddd;
+border-radius:5px;
+letter-spacing:1px;
+word-wrap:3px;
+outline:none;
+font-size:16px;
+color:#555555;
+}
+.card-grp{
+display:flex;
+justify-content:space-between;
+}
+.card-item{
+width:48%;
+}
+.space{
+margin-bottom:20px;
+}
+.icon-relative{
+position:relative;
+}
+.icon-relative.fas,
+.icon-relative.far{
+position:absolute;
+bottom:12px;
+left:15px;
+font-size:20px;
+color:#555555;
+}
+.button {
+background-color:rgb(41, 123, 179); /* Green */
+border:none;
+border-radius:6%;
+color:white;
+padding:15px32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:20px;
+margin:8px4px;
+cursor:pointer;
+-webkit-transition-duration:0.4s; /* Safari */
+transition-duration:0.4s;
+}
+.button1 {
+box-shadow:08px16px0rgba(0,0,0,0.2), 06px20px0rgba(0,0,0,0.19);
+
+}
+.payment-logo{
+position:absolute;
+top:-50px;
+left :50%;
+transform:translateX(-50%);
+width:100px;
+height:100px;
+background:#8d858579;
+border-radius:50%;
+box-shadow:005pxrgba(0,0,0,0.2);
+text-align:center; 
+line-height:100px;
+}
+.payment-logo:before{
+content:"";
+position:absolute;
+top:5px;
+left:5px;
+width:90px;
+height:90px;
+background:#1e85dada;
+border-radius:50%;
+}
+.payment-logop{
+color:white;
+position:relative;
+font-family:'Baloo 2', cursive;
+font-size:58px;
+}
+</style>
+</head>
+<body>
+<divclass="wrapper">
+<divclass="payment">
+<divclass="payment-logo">
+<p>P</p>
+</div>
+<h1>Payment Gateway</h1>
+<divclass="form">
+<divclass="card space icon-relative">
+<labelclass="label">Card holder:</label>
+<inputtype="text"class="input"name="card_holder"placeholder="Card holder Name">
+<iclass="fasfa-user"></i>
+</div>
+<divclass="card space icon-relative">
+<labelclass="label">Card number:</label>
+<inputtype="text"class="input"name="card_number"placeholder="Card Number">
+<iclass="far fa-credit-card"></i>
+</div>
+<divclass="card-grp space">
+<divclass="card-item icon-relative">
+<labelclass="label">Expiry date:</label>
+<inputtype="text"class="input"name="expiry_date"placeholder="00 / 00">
+<iclass="far fa-calendar-alt"></i>
+</div>
+<divclass="card-item icon-relative">
+<labelclass="label">CVC:</label>
+<inputtype="text"class="input"name="CVC"placeholder="000">
+<iclass="fasfa-lock"></i>
+</div>
+</div>
+<buttonclass="button button1"><b>Proceed to Pay</b></button>
+</div>
+</div>
+</div>
+</body>
+</html>
+
